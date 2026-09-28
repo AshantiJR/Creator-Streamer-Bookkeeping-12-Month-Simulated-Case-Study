@@ -76,6 +76,60 @@ The final workbook includes:
 
 The completed reporting system provides a structured view of the fictional business's revenue, expenses, profitability, account balances, and data-quality exceptions while maintaining traceability back to the underlying transactions.
 
+## Excel Skills & Formulas Used
+
+The workbook uses formula-driven calculations and data-quality controls to connect transaction-level records with reconciliation, financial reporting, and dashboard outputs.
+
+### SUMIFS
+
+`SUMIFS` is used to summarize financial activity based on specific criteria, such as transaction category, revenue source, or reporting period.
+
+This allows transaction-level data to flow into financial summaries without manually totaling individual records.
+
+### COUNTIF and COUNTIFS
+
+`COUNTIF` and `COUNTIFS` are used to identify and count records that meet specific conditions.
+
+These functions support data-quality controls such as duplicate detection, missing-information checks, and transaction-level review.
+
+### IF Logic
+
+`IF` statements are used to evaluate financial and data-quality conditions and return different results depending on whether those conditions are met.
+
+This supports automated review controls and makes potential discrepancies easier to identify.
+
+### Cross-Sheet References
+
+Cross-sheet references connect the transaction ledger with reconciliation worksheets, financial statements, and dashboard reporting.
+
+This allows changes in the underlying transaction data to flow through the workbook rather than requiring the same information to be entered manually in multiple places.
+
+### Reconciliation Controls
+
+Formula-driven controls compare transaction-level activity with summarized financial information to verify that reports agree with the underlying records.
+
+These checks support:
+
+- Revenue reconciliation
+- Bank reconciliation
+- Financial-statement tie-outs
+- Duplicate detection
+- Missing-information detection
+- Automated PASS/FAIL quality checks
+
+### Additional Excel Techniques
+
+- Excel tables
+- Structured transaction data
+- Sorting and filtering
+- Conditional formatting
+- Currency, percentage, and date formatting
+- Formula-driven calculations
+- Automated data-quality checks
+- Cross-sheet financial reporting
+- Dashboard presentation
+- Reconciliation and audit controls
+- 
 ## Project Status
 
 This project is completed. The final workbook, financial results, screenshots, and findings have been added to this repository.
