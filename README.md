@@ -58,9 +58,27 @@ Without organized records and regular reconciliation, it can be difficult for a 
 - Financial analysis
 - Excel reporting
 
+## Project Results
+
+The completed project organizes and analyzes 12 months of simulated financial activity for a fictional creator and streamer with multiple revenue sources and operating expenses.
+
+The final workbook includes:
+
+- A complete 12-month categorized transaction ledger
+- Revenue tracking across multiple creator income streams
+- Creator-platform payout reconciliation
+- Bank reconciliation
+- Month-end adjustment documentation
+- Income Statement and Balance Sheet reporting
+- Automated duplicate and missing-information checks
+- Financial dashboard and visual reporting
+- Formula-driven controls used to verify that financial reports reconcile to the underlying transaction data
+
+The completed reporting system provides a structured view of the fictional business's revenue, expenses, profitability, account balances, and data-quality exceptions while maintaining traceability back to the underlying transactions.
+
 ## Project Status
 
-This project is currently being completed. The final workbook, financial results, screenshots, and findings will be added to this repository.
+This project is completed. The final workbook, financial results, screenshots, and findings have been added to this repository.
 
 ## Disclosure
 
